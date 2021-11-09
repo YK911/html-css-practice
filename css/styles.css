@@ -1,7 +1,43 @@
-.services .title {
-    font-size: 16px;
+/*  Project colors
+#FFFFFF
+#000000
+#C4C4C4
+#F6F6F8
+#999999
+#A1A1A1
+
+шрифты
+Montserrat
+400, 500, 600, 700, 800
+*/
+:root {
+  --main-font: Montserrat, sans-serif;
+
+  --main-txt-cl: #999999;
+  --main-bg-cl: #ffffff;
 }
 
-.list .title {
-    font-size: 20px;
+/* Fonts */
+/* @font-face {
+  font-family: "Montserrat", sans-serif;
+  src: url("../fonts/Montserrat-400.ttf") format("ttf");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat", sans-serif;
+  src: url("../fonts/Montserrat-500.ttf") format("ttf");
+  font-weight: 500;
+  font-display: swap;
+} */
+
+body {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.56;
+
+  color: var(--main-txt-cl);
+  background-color: var(--main-bg-cl);
 }
