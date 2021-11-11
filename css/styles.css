@@ -300,6 +300,7 @@ p {
 
 /* FOOTER */
 .footer {
+  background-color: var(--primary-bg-cl);
 }
 .footer .list {
 }
